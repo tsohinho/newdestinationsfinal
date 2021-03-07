@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/stylepelion.css" rel="stylesheet" type="text/css"/>
+    <link href= "images/logo.png"type="image/png" rel="icon"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <title>Pelion</title>
+</head>
+<body>
+    
+        <div id="container">
+            <header>
+            
+              <a href="index.html">
+                <img id="logo" src="images/logo.png" alt="Newdestinations">
+            </a>
+            <!-- nav bar back for mobiles -->
+            <div class="backmobiles">
+              <h3>New Destinations</h3>
+              </div>
+              <!-- end -->
+    
+              <!-- Navbar -->
+              <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="destinations.html">DESTINATIONS</a></li>
+                    <li><a href="contactform.html">CONTACT</a></li>
+                  </ul>
+                </nav>
+                 <!-- burger menu -->
+                <div class="wrapper">
+                  <input type="checkbox" id="checkbox" class="wrapper__checkbox">
+                  <label for="checkbox" class="wrapper__button">
+                    <span class="wrapper__button-line"></span>
+                    <span class="wrapper__button-line"></span>
+                    <span class="wrapper__button-line"></span>
+                  </label>
+                  <div class="wrapper__menu">
+                    <a href="index.html" class="wrapper__menu-link">HOME</a>
+                    <a href="about.html" class="wrapper__menu-link">ABOUT</a>
+                    <a href="destinations.html" class="wrapper__menu-link">DESTINATIONS</a>
+                    <a href="contactform.html" class="wrapper__menu-link">CONTACT</a>
+                  </div>
+                  </div>
+            </header>
+
+            <main>
+                <!-- image gallery -->
+              <div class="slideshow-gal">
+                <div class="slideshow-inner">
+                  <div class="mySlides fade">
+                
+                    <img src="images/img_pelio_wide.png" alt="greece" style="width:100%">
+                    <div class="text">PELION</div>
+                  </div>
+                
+                  <div class="mySlides fade">
+                
+                    <img src="images/img_pelioo_wide.png" alt="greece" style="width:100%">
+                    <div class="text">PELION VIEWS</div>
+                  </div>
+                
+                  <div class="mySlides fade">
+                
+                    <img src="images/img_peliooo_wide.png" alt="greece" style="width:100%">
+                    <div class="text">MILIES PELION</div>
+                  </div>
+                
+                  <div class="mySlides fade">
+                
+                    <img src="images/img_pelioooo_wide.png" alt="greece" style="width:100%">
+                    <div class="text">PELION TRADITIONAL ARCHITECTURE</div>
+                  </div>
+
+                  <div class="mySlides fade">
+                
+                    <img src="images/img_peliooooo_wide.png" alt="greece" style="width:100%">
+                    <div class="text">PELION IN SUMMER</div>
+                  </div>
+
+                  <div class="mySlides fade">
+                
+                    <img src="images/img_pelioooooo_wide.png" alt="greece" style="width:100%">
+                    <div class="text">PELION IN WINTER</div>
+                  </div>
+                  
+                  </div>
+                
+                
+                  <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+                  <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+                </div>
+                <br/>
+                
+                
+                <div style='text-align: center;'>
+                  <span class="dot" onclick='currentSlide(1)'></span>
+                  <span class="dot" onclick='currentSlide(2)'></span>
+                  <span class="dot" onclick='currentSlide(3)'></span>
+                  <span class="dot" onclick='currentSlide(4)'></span>
+                  <span class="dot" onclick='currentSlide(5)'></span>
+                  <span class="dot" onclick='currentSlide(6)'></span>
+                </div>
+                
+                
+
+<h3 id="pelion">Pelion</h3>
+            <img id="line" src="images/line.png" alt="line">
+            <p id="textd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, praesentium obcaecati consectetur labore dolorum commodi accusantium placeat nisi exercitationem perspiciatis maiores! Quas voluptatibus architecto, blanditiis quam quidem numquam pariatur voluptatem adipisci illo veniam necessitatibus nihil laboriosam praesentium eveniet sapiente! Recusandae voluptatum illo nostrum quibusdam aliquid eligendi, officia dolorem, autem error libero a eum magni iste est voluptates eaque at molestiae.</p>
+                <!-- tabs of highlights -->
+              <h3 id="textp">Highlights of Pelion</h3>           
+
+
+              <div class="tabs">
+                <div class="tabby-tab">
+                  <input type="radio" id="tab-1" name="tabby-tabs" checked>
+                    <!-- sights -->
+                  <label for="tab-1">Sights</label>
+                  <div class="tabby-content">
+                    <div class="row1">
+                      <div class="column1">
+                        
+                          
+                        <img src="images/villagesim.png" alt="sights" style="width:100%">
+                        <h3 id="villages">Villages of Pelion</h3>
+                        
+                        <p id="villagestext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repudiandae, iste vitae dolorum quod aliquam delectus labore corporis consequuntur inventore! Lorem ipsum dolor.</p>
+                      
+                      </div>
+                      <div class="column1">
+                        
+                          
+                        <img src="images/skiim.png" alt="skiim" style="width:100%">
+                      
+                        <h3 id="ski">Pelion Ski Center</h3>
+                        <p id="skitext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repudiandae, iste vitae dolorum quod aliquam delectus labore corporis consequuntur inventore!</p>
+                      
+                      </div>
+                      <div class="column1">
+                        
+                          
+                        <img src="images/rest.png" alt="rest" style="width:100%">
+                      
+                        <h3 id="restaurants">Famous Tsipouro restaurants</h3>
+                        <p id="restaurantstext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa hfhiasdhfioashf explicabo consequuntur dolores odio velit officia. Saepe laudantium veniam blanditiis.</p>
+                      
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+            
+                <div class="tabby-tab">
+                  <input type="radio" id="tab-2" name="tabby-tabs">
+                    <!-- activities -->
+                  <label for="tab-2">Activities</label>
+                  <div class="tabby-content">
+                    <div class="row1">
+                      <div class="column1">
+                        
+                          
+                        <img src="images/canyoning.png" alt="sights" style="width:100%">
+                        <h3 id="villages">Canyoning</h3>
+                        
+                        <p id="villagestext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repudiandae, iste vitae dolorum quod aliquam delectus labore corporis consequuntur inventore! Lorem ipsum dolor.</p>
+                      
+                      </div>
+                      <div class="column1">
+                        
+                          
+                        <img src="images/seakayak.png" alt="skiim" style="width:100%">
+                      
+                        <h3 id="ski">Sea Kayak</h3>
+                        <p id="skitext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repudiandae, iste vitae dolorum quod aliquam delectus labore corporis consequuntur inventore!</p>
+                      
+                      </div>
+                      <div class="column1">
+                        
+                          
+                        <img src="images/horseriding.png" alt="rest" style="width:100%">
+                      
+                        <h3 id="restaurants">Horse Riding</h3>
+                        <p id="restaurantstext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa hfhiasdhfioashf explicabo consequuntur dolores odio velit officia. Saepe laudantium veniam blanditiis.</p>
+                      
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+            
+                <div class="tabby-tab">
+                  <input type="radio" id="tab-3" name="tabby-tabs">
+                    <!-- gastronomy -->
+                  <label for="tab-3">Gastronomy</label>
+                  <div class="tabby-content">
+                    <div class="row1">
+                      <div class="column1">
+                        
+                          
+                        <img src="images/spetzofai.png" alt="sights" style="width:100%">
+                        <h3 id="villages">Spetzofai</h3>
+                        
+                        <p id="villagestext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repudiandae, iste vitae dolorum quod aliquam delectus labore corporis consequuntur inventore! Lorem ipsum dolor.</p>
+                      
+                      </div>
+                      <div class="column1">
+                        
+                          
+                        <img src="images/pelionapples.png" alt="skiim" style="width:100%">
+                      
+                        <h3 id="ski">Pelion Apples</h3>
+                        <p id="skitext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repudiandae, iste vitae dolorum quod aliquam delectus labore corporis consequuntur inventore!</p>
+                      
+                      </div>
+                      <div class="column1">
+                        
+                          
+                        <img src="images/kopanisti.png" alt="rest" style="width:100%">
+                      
+                        <h3 id="restaurants">Kopanisti Volou</h3>
+                        <p id="restaurantstext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa hfhiasdhfioashf explicabo consequuntur dolores odio velit officia. Saepe laudantium veniam blanditiis.</p>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+              </div>
+
+              
+          </main>
+
+          <footer>
+            <!-- Footer -->
+<div class="ff">
+  
+  <img id="footerlogo" src="images/logo.png" alt="logo" style="width: 30%;">
+<div class="lefttext">
+  <h3>CONTACT</h3>
+  <p>nd1@newdestinations.gr</p>
+  <div class="socialimages">
+    <a href="#">
+      <img id="facebookf" src="images/facebook.png" alt="facebook">
+      </a>
+      <a href="#">
+          <img id="instagramf" src="images/instagram.png" alt="instagram">
+          </a>
+          <a href="#">
+              <img id="inf" src="images/in.png" alt="in">
+              </a>
+              <a href="#">
+                  <img id="twitterf" src="images/twitter.png" alt="twitter">
+                  </a>
+                  <a href="#">
+                      <img id="youtubef" src="images/youtube.png" alt="youtube">
+                      </a>
+  </div>
+</div>
+<div class="centertext">
+  <h3>COMPANY</h3>
+<ol>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a href="destinations.html">DESTINATIONS</a></li>
+  <li><a href="contactform.html">CONTACT</a></li>
+</ol>
+</div>
+<div class="righttext">
+<h3>ADDRESS</h3>
+<p>Voutyra 3-5,Nea Smyrni</p>
+<p>PC:17122</p>
+</div>
+            </footer>
+
+
+
+
+
+            
+        </div>
+</body>
+  <!-- script for image gallery -->
+<script type="text/javascript" src="js/gallery.js"></script>
+</html>

@@ -1,0 +1,25 @@
+{
+    "cities": [
+        {
+            "berlin": { 
+                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa hfhiasdhfioashf explicabo consequuntur dolores odio velit officia. Saepe laudantium veniam blanditiis."
+            },
+            "paris": { 
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa hfhiasdhfioashf explicabo consequuntur dolores odio velit officia. Saepe laudantium veniam blanditiis."
+            },
+            "london": { 
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa hfhiasdhfioashf explicabo consequuntur dolores odio velit officia. Saepe laudantium veniam blanditiis."
+            },
+            "rome": { 
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa hfhiasdhfioashf explicabo consequuntur dolores odio velit officia. Saepe laudantium veniam blanditiis."
+            },
+            "warsaw": { 
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa hfhiasdhfioashf explicabo consequuntur dolores odio velit officia. Saepe laudantium veniam blanditiis."
+            },
+            "amsterdam": { 
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa hfhiasdhfioashf explicabo consequuntur dolores odio velit officia. Saepe laudantium veniam blanditiis."
+            }
+
+        }
+    ]
+}

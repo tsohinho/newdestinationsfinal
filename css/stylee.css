@@ -1,0 +1,763 @@
+* {
+    margin:0;
+    padding:0; 
+}
+body{
+    background-color: rgb(255, 255, 255);
+    }
+    
+    #container{
+        max-width:1300px;
+        margin: 0 auto;
+    }
+    header{
+      background: url('../images/europe1.png')  center no-repeat;
+      background-size: cover;
+      width: 100vw;
+      position: relative;
+      margin-left: -50vw;
+      height:700px;
+     
+      left: 50%;
+     
+    
+    }
+    #logo{
+      z-index: 999;
+         display: block;
+         position: absolute;
+         top: -40px;
+         transform: translateX(30%);          
+      }
+      .backmobiles{
+        display: none;
+      }
+      /* Burger menu */
+      .wrapper{
+        display: none;
+        
+      }
+      /* Navbar */
+      nav ul {
+          list-style:none;
+        
+      }
+      nav ul li a {
+          text-decoration:none;
+          color:rgb(34, 34, 34);
+          border-bottom: 3px solid transparent;
+          padding: 5px;
+          
+          
+      }
+      nav ul li {
+          display: inline;
+          font-size:16px;
+          font-style: normal;
+          padding:50px;
+          margin:10px;
+          letter-spacing: 2px;
+          font-weight: bold;
+          font-family: 'Roboto', sans-serif;
+      }
+      nav{
+          text-align: right;
+        background-color: #ffffff;
+          padding: 20px;
+      transform: translateY(65px);
+      }
+      
+    
+      
+      nav a:hover {
+        border-bottom: 3px solid #08D9D6;
+      }
+    #textd{
+      text-align: left;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: 'Montserrat', sans-serif;
+font-size:16px;
+line-height: 1.5;
+
+      }
+      #line{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5%;
+      }
+      #europet{
+        font-family: 'Montserrat', sans-serif;
+        font-size:34px;
+        font-style: normal;
+        margin-bottom: 20px;
+        padding-top: 100px;
+        text-align: center;
+      }
+    
+    * {
+      box-sizing: border-box;
+    }
+    /* Europe first 3 destinations */
+    .column1 {
+      float: left;
+      width: 30%;
+      padding: 10px;
+      margin: 1.5%;
+     
+    }
+    
+   
+    .row1::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .row1{
+      background-color: whitesmoke;
+      margin-top: 25px;
+    }
+    .row2{
+      background-color: whitesmoke;
+    }
+    #columnimg{
+      border-radius: 5%;
+    } 
+    #berlin{
+      text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  color: black;
+  }
+  #berlintext{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:16px;
+  line-height: 1.5;
+  color: black;
+    }
+    #paris{
+      text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  color: black;
+  }
+  #paristext{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:16px;
+  line-height: 1.5;
+  color: black;
+    }
+    #london{
+      text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  color: black;
+  }
+  #londontext{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:16px;
+  line-height: 1.5;
+  color: black;
+    }
+    /* Hover images */
+    .column1 figure img {
+      opacity: 1;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+    .column1 figure:hover img {
+      opacity: .5;
+    }
+
+* {
+  box-sizing: border-box;
+}
+/* Europe destinations 4,5,6 */
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin: 1.5%;
+  margin-top: 10px;
+  
+  
+}
+
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#rome{
+  text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+#rometext{
+  text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:16px;
+  line-height: 1.5;
+}
+#warsaw{
+  text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+#warsawtext{
+  text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:16px;
+  line-height: 1.5;
+}
+#amsterdam{
+  text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+#amsterdamtext{
+  text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  font-size:16px;
+  line-height: 1.5;
+}
+a{
+  text-decoration:none;
+  }
+/* Footer */
+
+footer{
+  margin-top: 200px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+
+}
+#footerlogo{
+display: none;
+}
+a{
+text-decoration: none;
+}
+.ff{
+max-width: 1300px;
+display: flex;
+justify-content: space-between;
+padding-left: 50px;
+padding-right: 50px;
+font-size: 14px;
+font-family:'Montserrat', sans-serif; 
+font-weight: bold;
+color:rgb(34, 34, 34);
+}
+.lefttext{
+text-align: center;
+line-height: 30px;
+}
+.centertext{
+text-align: center;
+line-height: 30px;
+}
+.centertext ol li{
+ list-style: none;
+}
+.centertext ol li a{
+ text-decoration: none;
+ color:rgb(34, 34, 34);
+}
+.righttext{
+text-align: center;
+line-height: 30px;
+
+}
+#facebookf{
+width: 25px;
+height: 25px;
+margin: 5px;
+}
+#instagramf{
+width: 25px;
+height: 25px;
+margin: 5px;
+}
+#inf{
+width: 25px;
+height: 25px;
+margin: 5px;
+}
+#twitterf{
+width: 25px;
+height: 25px;
+margin: 5px;
+}
+#youtubef{
+width: 25px;
+height: 25px;
+margin: 5px;
+}
+@media screen and (min-width: 360px) and (max-width: 500px){
+  header{
+    height: 400px;
+    background: url('../images/europe1.png') top  no-repeat;
+  }
+  #logo{
+   display: none;
+        
+    }
+  nav{
+    display: none;
+  }
+  .backmobiles{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transform: translateY(0px);
+    
+  }
+  .wrapper{
+      display: block;
+      z-index: 100;
+      
+    }
+    .wrapper__checkbox {
+      display: none;
+    }
+    .wrapper__checkbox:checked ~ .wrapper__menu {
+      right: 0; }
+    
+    .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
+      transform: rotate(45deg);
+      top: 8px;  
+    }
+    .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(2) {
+      opacity: 0;  
+    }
+    .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(3) {
+      transform: rotate(-45deg);
+      top: -6px;  
+    }
+    .wrapper__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #fff;
+      position: fixed;
+      top: 11px;
+      right: 20px;
+      cursor: pointer;
+      z-index: 3;
+    }
+    .wrapper__button-line {
+      display: block;
+      width: 20px;
+      height: 3px;
+      border-radius: 5px;
+      background: #000;
+      margin: 2px 0;
+      position: relative;  
+      transition: all .2s ;
+    }
+    .wrapper__menu {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 250px;
+      height: 400px;
+      background:#243645;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 100px 40px 40px;
+      transition: right .4s;
+      border-bottom-left-radius: 100px;
+      z-index: 2;
+    }
+    .wrapper__menu-link {
+      font-size: 18px;
+      line-height: 20px;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-bottom: 30px;
+      padding: 5px 10px;
+      transition: all .2s linear;
+      font-family: 'Montserrat', sans-serif;
+    }
+    #europet{
+      font-size: 24px;
+      margin-top: -50px;
+    }
+    #textd{
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align: left;
+    }
+    .column1 {
+      width: 70%;
+      height: 50%;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 15px;
+    margin-left:15%; 
+        margin-right:15%;
+      
+    }
+    .row1{
+      border-radius: none;
+    }
+    #columnimg{
+      border-radius: 0%;
+    }
+    #berlintext, #paristext, #londontext, #rometext, #warsawtext, #amsterdamtext{
+      display: none;
+    }
+    #berlin{
+      color: rgb(255, 255, 255);
+       background-color: #08d9d6;
+       padding: 10px;
+       text-align: left;
+       
+     font-size:14px;
+     text-align: center;
+     margin-top: -5px;
+    }
+    #paris{
+      color: rgb(255, 255, 255);
+       background-color: #08d9d6;
+       padding: 10px;
+       text-align: left;
+       
+     font-size:14px;
+     text-align: center;
+     margin-top: -5px;
+    }
+    #london{
+      color: rgb(255, 255, 255);
+       background-color: #08d9d6;
+       padding: 10px;
+       text-align: left;
+       
+     font-size:14px;
+     text-align: center;
+     margin-top: -5px;
+    }
+    .column2 {
+      width: 70%;
+      height: 50%;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 15px;
+    margin-left:15%; 
+        margin-right:15%;
+      
+    }
+    #rome{
+      color: rgb(255, 255, 255);
+       background-color: #08d9d6;
+       padding: 10px;
+       text-align: left;
+       
+     font-size:14px;
+     text-align: center;
+     margin-top: -5px;
+    }
+    #warsaw{
+      color: rgb(255, 255, 255);
+       background-color: #08d9d6;
+       padding: 10px;
+       text-align: left;
+       
+     font-size:14px;
+     text-align: center;
+     margin-top: -5px;
+    }
+    #amsterdam{
+      color: rgb(255, 255, 255);
+       background-color: #08d9d6;
+       padding: 10px;
+       text-align: left;
+       
+     font-size:14px;
+     text-align: center;
+     margin-top: -5px;
+    }
+    #footerlogo{
+      display: block;
+      margin: auto;
+      width: 60%;
+    }
+    .ff{
+      display: block;
+      transform: translateY(-75px);
+      }
+      .centertext{
+    margin-top: 30px;    
+      }
+      .righttext{
+        margin-top: 30px; 
+      }
+  }
+  @media screen and (min-width: 501px) and (max-width: 960px){
+    header{
+      height: 400px;
+      background: url('../images/europe1.png') top  no-repeat;
+    }
+    #logo{
+      display: none;
+           
+       }
+     nav{
+       display: none;
+     }
+     
+    .backmobiles{
+      display: block;
+      background-color: rgb(255, 255, 255);
+      padding: 20px;
+      color: black;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+      transform: translateY(0px);
+    }
+    .wrapper{
+        display: block;
+        z-index: 100;
+        
+      }
+      .wrapper__checkbox {
+        display: none;
+      }
+      .wrapper__checkbox:checked ~ .wrapper__menu {
+        right: 0; }
+      
+      .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
+        transform: rotate(45deg);
+        top: 8px;  
+      }
+      .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(2) {
+        opacity: 0;  
+      }
+      .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(3) {
+        transform: rotate(-45deg);
+        top: -6px;  
+      }
+      .wrapper__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #fff;
+        position: fixed;
+        top: 11px;
+        right: 20px;
+        cursor: pointer;
+        z-index: 3;
+      }
+      .wrapper__button-line {
+        display: block;
+        width: 20px;
+        height: 3px;
+        border-radius: 5px;
+        background: #000;
+        margin: 2px 0;
+        position: relative;  
+        transition: all .2s ;
+      }
+      .wrapper__menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 250px;
+        height: 400px;
+        background:#243645;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 100px 40px 40px;
+        transition: right .4s;
+        border-bottom-left-radius: 100px;
+        z-index: 2;
+      }
+      .wrapper__menu-link {
+        font-size: 18px;
+        line-height: 20px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-bottom: 30px;
+        padding: 5px 10px;
+        transition: all .2s linear;
+        font-family: 'Montserrat', sans-serif;
+      }
+      #europet{
+        font-size: 24px;
+        margin-top: -25px;
+      }
+      #textd{
+        text-align: left;
+        padding-right: 5%;
+        padding-left: 5%;
+      }
+      .column1 {
+        width: 50%;
+        height: 50%;
+      margin: 0%;
+      padding: 0%;
+      padding-top: 25px;
+      margin-left:25%; 
+          margin-right:25%;
+        
+      }
+      .column2 {
+        width: 50%;
+        height: 50%;
+      margin: 0%;
+      padding: 0%;
+      padding-top: 25px;
+      margin-left:25%; 
+          margin-right:25%;
+        
+      }
+      .row1{
+        border-radius: none;
+      }
+      #columnimg{
+        border-radius: 0%;
+      }
+      #berlintext, #paristext, #londontext, #rometext, #warsawtext, #amsterdamtext{
+        display: none;
+      }
+      #berlin{
+        color: rgb(255, 255, 255);
+         background-color: #08d9d6;
+         padding: 10px;
+         text-align: left;
+         
+       font-size:14px;
+       text-align: center;
+       margin-top: -5px;
+      }
+      #paris{
+        color: rgb(255, 255, 255);
+         background-color: #08d9d6;
+         padding: 10px;
+         text-align: left;
+         
+       font-size:14px;
+       text-align: center;
+       margin-top: -5px;
+      }
+      #london{
+        color: rgb(255, 255, 255);
+         background-color: #08d9d6;
+         padding: 10px;
+         text-align: left;
+         
+       font-size:14px;
+       text-align: center;
+       margin-top: -5px;
+      }
+     
+      #rome{
+        color: rgb(255, 255, 255);
+         background-color: #08d9d6;
+         padding: 10px;
+         text-align: left;
+         
+       font-size:14px;
+       text-align: center;
+       margin-top: -5px;
+      }
+      #warsaw{
+        color: rgb(255, 255, 255);
+         background-color: #08d9d6;
+         padding: 10px;
+         text-align: left;
+         
+       font-size:14px;
+       text-align: center;
+       margin-top: -5px;
+      }
+      #amsterdam{
+        color: rgb(255, 255, 255);
+         background-color: #08d9d6;
+         padding: 10px;
+         text-align: left;
+         
+       font-size:14px;
+       text-align: center;
+       margin-top: -5px;
+      }
+      #footerlogo{
+        display: block;
+        margin: auto;
+        width: 60%;
+      }
+      .ff{
+        display: block;
+        transform: translateY(-75px);
+        }
+        .centertext{
+      margin-top: 30px;    
+        }
+        .righttext{
+          margin-top: 30px; 
+        }
+    }
+    @media screen and (min-width: 961px) and (max-width: 1100px){
+      header{
+        height: 400px;
+        background: url('../images/europe1.png') top  no-repeat;
+      } 
+      nav ul li {
+        display: inline;
+        font-size:16px;
+        font-style: normal;
+        padding:30px;
+        margin:10px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    #textd{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    }
